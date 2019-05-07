@@ -1,0 +1,65 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="bootstrap4.min.css">
+      <style>table{border-collapse: unset !important}.review-header{  color: rgb(56, 33, 16);
+        font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        height: 24px;
+        width: auto;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 2px 0px;}</style>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background:#F4F1EA;">
+      <a class="navbar-brand" href="#">Goodreads</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Books</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Browse
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div style="width: 1200px; margin-left: auto; margin-right: auto;">
+      <div style="width: 70%; float:left; padding-right: 15px; padding-left:15px; position: relative;">
+        <div id="description-app" style="margin-bottom:10px"></div>
+        <span class="review-header">Book Reviews</span>
+        <hr>
+        <div id="reviews" style="padding-top:10px;"></div>
+      </div>
+      <div style="width: 20%; float:left; padding-right: 15px; padding-left:15px; position: relative;">
+        <div id="root"></div>
+      </div>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+    <script src="http://node-express-env.muzxdnrg2m.us-west-2.elasticbeanstalk.com/bundle.js"></script>
+    <script src="http://bookdescriptionservice-env.gp7avcyjnp.us-east-2.elasticbeanstalk.com/dist/bundle.js"></script>
+    <script src="http://54.214.128.238/bundle.js"></script>
+  </body>
+</html>

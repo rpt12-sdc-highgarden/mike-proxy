@@ -1,0 +1,24 @@
+{
+  "name": "rpt12-fec-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for delivering all goodreads services on localhost",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt12-knightrider/sm-proxy.git"
+  },
+  "author": "Steve Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpt12-knightrider/sm-proxy/issues"
+  },
+  "homepage": "https://github.com/rpt12-knightrider/sm-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
