@@ -10,12 +10,6 @@
   - https://github.com/rpt12-knightrider/mj-service
   - https://github.com/rpt12-knightrider/sm-service
 
-## Table of Contents
-
-1. [Usage](#Usage)
-2. [Requirements](#requirements)
-3. [API Endpoint](#api%20endpoint)
-
 ## Usage
 
 > For setup, please follow this pattern:
