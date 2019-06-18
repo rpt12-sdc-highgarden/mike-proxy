@@ -1,0 +1,15 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 60
+      arrivalRate: 2
+  http:
+    pool: 10
+scenarios:
+  - flow:
+    - loop:
+      - get:
+          url: '/{{ $randomNumber(0, 10000000) }}/'
+      count: 550
+
+      # Run the test with: artillery run artillery.yml
